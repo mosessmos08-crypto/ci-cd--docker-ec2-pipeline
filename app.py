@@ -11,7 +11,7 @@ class MyHandler(BaseHTTPRequestHandler):
         total, used, free = shutil.disk_usage("/")
 
         output = f"""
-        <h1>System Health Check 🚀</h1>
+        <h1>System Health Check </h1>
         <p>CPU Load: {load}</p>
         <p>Disk Total: {total // (2**30)} GB</p>
         <p>Disk Used: {used // (2**30)} GB</p>
